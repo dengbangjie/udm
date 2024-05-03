@@ -7,7 +7,6 @@
 
 #include "../udm_device.h"
 
-void UDMDeviceContext_Factory(UDMDeviceContext *context, );
 
 
 #endif //UDM_CUDEVICE_H

@@ -56,6 +56,13 @@ typedef struct UDM_MdArray_s {
 } UDM_MdArray;
 
 
+// TOPO
+typedef enum UDMCenterType_enum {
+    kNODE_CENTER = 0,
+    kCELL_CENTER = 1
+} UDM_SMeshCenterType;
+
+// API
 UDM_ERRORCODE
 UDM_MdArray_Alloc(UDM_MdArray *__restrict p, UDM_IP dim, UDM_ILP *__restrict shape, UDM_ALLOC_POLICY policy,
                   void *device,

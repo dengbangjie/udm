@@ -5,10 +5,12 @@
 #ifndef UDM_UDMDEV_H
 #define UDM_UDMDEV_H
 
+#include "stdint.h"
+
 typedef enum UDM_DEVICE_TYPE_ENUM {
-    kMutiCore = 0,
-    kCUDA = 1,
-    kOpenCL = 2
+    kUDM_MultiCore = 0,
+    kUDM_CUDA = 1,
+    kUDM_OpenCL = 2
 } UDM_DEVICE_TYPE;
 
 

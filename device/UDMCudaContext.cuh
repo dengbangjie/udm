@@ -7,6 +7,7 @@
 
 #include "stdint.h"
 
-void udm_cu_calloc_dev(uint64_t nelem, uint64_t size);
+void cu_calloc_dev(uint64_t nelem, uint64_t size);
+
 
 #endif //UDM_UDMCUDACONTEXT_CUH
